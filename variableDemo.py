@@ -1,4 +1,5 @@
-
+import math
+'''
 intVariable = 4
 floatVariable = 4.5
 stringVariable = "Software1 is fun"
@@ -33,3 +34,10 @@ school = input("Enter your school: ")
 print("you are", name, " and your school name is", school)
 print(f"you name is, {name}, and your school name is {school}")
 
+floatVariable = 25.5345678990888
+print(f"your name is:{name} and you float variable is: {floatVariable}")
+print(f"your school is:{school} and you float variable is: {floatVariable}")
+'''
+rds = float(input("Enter your RDS: "))
+area = math.pi * rds**2
+print(f"your RDS is: {rds}, and your area is : {area: 2f}")
