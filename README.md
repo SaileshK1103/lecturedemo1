@@ -1,0 +1,1 @@
+we successfully defined variables
